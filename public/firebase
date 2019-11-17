@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.4.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDH9p4wc3P5SxiIyPz00n1j9_7seKSEH34",
+    authDomain: "timetracker-6ec84.firebaseapp.com",
+    databaseURL: "https://timetracker-6ec84.firebaseio.com",
+    projectId: "timetracker-6ec84",
+    storageBucket: "timetracker-6ec84.appspot.com",
+    messagingSenderId: "81028391853",
+    appId: "1:81028391853:web:dc0dbee473a8e751a1f724",
+    measurementId: "G-PS37FFMG6B"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
